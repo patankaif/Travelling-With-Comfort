@@ -11,13 +11,13 @@
     <div class="nav-left">Travelling</div>
     <div class="nav-center">
       <input type="text" class="search-box" placeholder="Search your destination...">
-      <button class="search-btn">🔍</button>
+      <button class="searchBtn" onclick="searchBtnClick()">🔍</button>
     </div>
   </header>
 
   <section class="card-container">
     <div class="card">
-      <img src="image1.jpeg" alt="Taj Mahal">
+      <img src="image1.jpeg" alt="Taj Mahal" >
       <h3>Agra</h3>
       <p>Home to the majestic Taj Mahal.</p>
     </div>
@@ -78,9 +78,18 @@
     </div>
   </section>
 
+  <section class="detail-info" style="display: none;">
+    <div class="detailedDiv">
+      <h1 class="detailedTitle" style="text-align: center; font-size: 80px; font-family: 'Times New Roman', Times, serif;"></h1>
+      <img src="" class="detailedImage" style="height: 50vh;">
+      <p class="detailedDesc"></p>
+      <button type="button" class="backBtn">Back</button>
+    </div>
+  </section>
+
   <footer class="footer">
     <p>© 2025 Travelling India. Discover incredible places across the country.</p>
   </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
