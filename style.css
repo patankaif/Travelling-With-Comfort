@@ -40,7 +40,7 @@
     border: none;
   }
   
-  .search-btn {
+  .searchBtn {
     background-color: #007c91;
     color: white;
     border: none;
@@ -86,7 +86,6 @@
     transform: scale(1.03);
   }
   
-  /* Footer */
   .footer {
     text-align: center;
     background-color: #00838f;
@@ -95,4 +94,35 @@
     font-size: 0.9rem;
     margin-top: 30px;
   }
+
+
+  .detailedDiv {
+    text-align: center;
+  }
+
+   .detailedImage{
+      max-width: 80%; 
+      height: auto;
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+   
+    .backBtn{
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      margin-top: 20px;
+  }
+  
+  .backBtn:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+  }
+
   
